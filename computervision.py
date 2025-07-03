@@ -90,7 +90,7 @@ def create_bounding_box(image_url, detection_result):
     # Bounding box 그리기
     draw = ImageDraw.Draw(image)
     
-    # 폰트 사이즈 설정 (큰 폰트)
+    # 폰트 사이즈 설정
     try:
         # macOS
         font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 100)
